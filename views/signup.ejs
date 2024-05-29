@@ -1,0 +1,13 @@
+<%- include('./partials/header')%>
+
+<form action="/signup" method="post" class="bg-slate-300 w-[40%] p-10 m-auto mt-10 ">
+    <input type="text" placeholder="name" name="name" class="w-full text-xl p-2 mt-10" >
+  <input type="text" placeholder="username" name="username" class="w-full text-xl p-2 mt-10">
+  <input type="email" placeholder="email" name="email" class="w-full text-xl p-2 mt-10">
+  <input type="password" placeholder="password" name="password" class="w-full text-xl p-2 mt-10">
+  <button class="w-full text-xl p-2 text-white bg-slate-800 mt-10">Sign Up</button>
+  <p class="mt-10">Already have an account?<a href="/">LogIn</a> </p>
+  
+</form>
+
+<%- include('./partials/footer')%>
